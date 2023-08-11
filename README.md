@@ -6,6 +6,23 @@ Displaying news with Typography and visuals focused, Timesquare.io should be goo
 
 # How will Timesquare.io work
 
+## Transitions to new views
+View Model in Timesquare.io will be based on a few different variations of the TimeSquare-shaped structure.
+Each x amount of time the website will display a part of the website - zoomed in - showing only readable and viewable size of it.
+
+For instance...
+Full size model
+
+![image](https://drive.google.com/uc?export=view&id=<1dvlzKWWV6_421GCLWI5OpXaLjWWNn29J>)
+
+Part size models
+
+![image](https://drive.google.com/uc?export=view&id=<1wuWumbX7uCpHFseE1FhwGehWbr0P9Uje>)
+
+![image](https://drive.google.com/uc?export=view&id=<1Q007-2JER0EqjKlfQYxuGc6tVY9_JDsz>)
+
+
+
 ## Categories and what goes under the categories.
 
 | Category  | Contents |
@@ -23,3 +40,4 @@ For instance, if Building 1 has news on 'Andy eating doughnut', then the news be
 # Technologies to be used
 
 TypeScript, Next13, React, Node, Express, AWS Lambda (to be discussed), and Cloudflare (to be discussed).
+
