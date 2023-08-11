@@ -13,13 +13,13 @@ Each x amount of time the website will display a part of the website - zoomed in
 For instance...
 Full size model
 
-![image](https://drive.google.com/uc?export=view&id=<1dvlzKWWV6_421GCLWI5OpXaLjWWNn29J>)
+![image](https://drive.google.com/uc?export=view&id=1dvlzKWWV6_421GCLWI5OpXaLjWWNn29J)
 
 Part size models
 
-![image](https://drive.google.com/uc?export=view&id=<1wuWumbX7uCpHFseE1FhwGehWbr0P9Uje>)
+![image](https://drive.google.com/uc?export=view&id=1wuWumbX7uCpHFseE1FhwGehWbr0P9Uje)
 
-![image](https://drive.google.com/uc?export=view&id=<1Q007-2JER0EqjKlfQYxuGc6tVY9_JDsz>)
+![image](https://drive.google.com/uc?export=view&id=1Q007-2JER0EqjKlfQYxuGc6tVY9_JDsz)
 
 
 
