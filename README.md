@@ -1,4 +1,9 @@
 # Timesquare
+
+## How to set up
+
+
+
 ## What is a Timesquare.io project
 
 Timesquare.io Project is from my idea of displaying news titles and wider information updates in separate categories.
