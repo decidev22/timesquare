@@ -18,9 +18,9 @@
 
 .stage-3d {
   perspective: 400px;
-  perspective-origin: 50% 80%;
+  perspective-origin: 500px 80%;
   height: 700px;
-  width: 800px;
+  width: 1000px;
   display: flex;
   justify-content: space-between;
   align-items: end;
@@ -40,7 +40,7 @@
 .left-wall-middle {
   position: absolute;
   width: 150px;
-  height: 400px;
+  height: 600px;
   background-color: rgb(68, 67, 67);
   transform: 
   translate3d(0, 0, -150px)
@@ -56,29 +56,18 @@
   transform: 
   translate3d(0, 0, -300px)
   rotateY(90deg);
-  z-index: -1;
+  z-index: -2;
 }
 
-.left-wall-back {
+.left-wall-back-2 {
   position: absolute;
   width: 150px;
-  height: 900px;
+  height: 1500px;
   background-color: rgb(208, 206, 206);
   transform: 
-  translate3d(0, 0, -300px)
+  translate3d(0, 0, -450px)
   rotateY(90deg);
-  z-index: -1;
-}
-
-.right-wall-back {
-  position: absolute;
-  width: 150px;
-  height: 550px;
-  background-color: rgb(208, 206, 206);
-  transform: 
-  translate3d(650px, 0, -300px)
-  rotateY(-90deg);
-  z-index: -1;
+  z-index: -2;
 }
 
 .right-wall-middle {
@@ -87,7 +76,7 @@
   height: 650px;
   background-color: rgb(68, 67, 67);
   transform: 
-  translate3d(650px, 0, -150px)
+  translate3d(850px, 0, -150px)
   rotateY(-90deg);
   z-index: -1;
 }
@@ -95,46 +84,54 @@
 .right-wall-front {
   position: absolute;
   width: 150px;
-  height: 300px;
+  height: 750px;
   background-color: gray;
   transform: 
-  translate3d(650px, 0, 0)
+  translate3d(850px, 0, 0)
   rotateY(-90deg);
   z-index: -1;
 }
 
 
 .panel {
+  position: absolute;
   border: solid 1px black;
-  height: 60px;
   width: 150px;
   background-color: white;
 }
 
-.front-panel {
+.front-left-panel {
   margin-bottom: 450px;
   height: 200px;
   transform: translate3d(0, 0, -50px);
 }
 
-.middle-panel {
-  height: 450px;
-  margin-bottom: 250px;
-  transform: translate3d(-300px, 0, -400px);
+.middle-left-panel {
+  height: 250px;
+  margin-bottom: 50px;
+  transform: translate3d(0, 0, -200px);
 }
 
-.rear-panel {
+.rear-left-panel {
   transform: translate3d(0, 0, -400px);
-  margin-bottom: 450px;
+  margin-bottom: 250px;
+  height: 750px;
+  z-index: -1;
 }
 
-.center-panel {
+.front-right-panel {
+  margin-bottom: 250px;
+  height: 400px;
+  transform: translate3d(850px, 0, -200px);
+}
+
+.center-building {
   z-index: -1;
   position: absolute;
   width: 200px;
   height: 800px;
   background-color: rgb(68, 67, 67);
   transform: 
-  translate3d(300px, 0, -150px)
+  translate3d(400px, 0, -150px)
   rotateY(0deg);
 }
