@@ -22,21 +22,21 @@
   height: 700px;
   width: 800px;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   position: relative;
   }
 
   .left-side {
     height: 1000px;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     transform: rotateY(45deg);
   }
 
   .right-side {
     height: 1000px;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     transform: 
     translateX(800px)
     rotateY(-45deg);

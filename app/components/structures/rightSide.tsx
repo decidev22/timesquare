@@ -1,4 +1,4 @@
-export default function RightSide() {
+export default function RightSide({newsItems}) {
     return (
       <div className="right-side">
         <div className="absolute w-20 h-5/6 -translate-x-20 bg-gray-500"></div>

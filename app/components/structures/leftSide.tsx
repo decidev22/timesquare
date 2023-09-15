@@ -1,4 +1,4 @@
-export default function LeftSide() {
+export default function LeftSide({newsItems}) {
   return (
     <div className="left-side">
       <div className="absolute w-20 h-5/6 bg-gray-500"></div>
