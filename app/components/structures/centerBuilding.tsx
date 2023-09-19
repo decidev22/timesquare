@@ -1,4 +1,4 @@
-export default function CenterBuilding({newsItems}) {
+export default function CenterBuilding() {
 
   return (
     <div className="center-building">

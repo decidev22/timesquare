@@ -25,9 +25,9 @@ export default function Home() {
   return (
     <main className="flex justify-center">
       <div className="stage-3d">
-        <LeftSide newsItems={news}/>
-        <CenterBuilding newsItems={news} />
-        <RightSide newsItems={news}/>
+        <LeftSide/>
+        <CenterBuilding/>
+        <RightSide/>
       </div>
     </main>
   );
