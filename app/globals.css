@@ -8,20 +8,45 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.stage-3d {
+  perspective: 400px;
+  perspective-origin: 400px 80%;
+  height: 700px;
+  width: 800px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  }
+
+  .left-side {
+    height: 1000px;
+    display: flex;
+    align-items: flex-end;
+    transform: rotateY(45deg);
+  }
+
+  .right-side {
+    height: 1000px;
+    display: flex;
+    align-items: flex-end;
+    transform: 
+    translateX(800px)
+    rotateY(-45deg);
+  }
+
+.center-building {
+  position: absolute;
+  width: 200px;
+  height: 800px;
+  background-color: rgb(68, 67, 67);
+  transform: 
+  translate3d(300px, 0, -150px);
 }
